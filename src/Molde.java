@@ -1,22 +1,27 @@
 public class Molde {
     //atributos
-    String material;
-    float ancho;
+    String material; //declaro una caden llama da materisl
+    float ancho;//declaro un flotante llamado ancho ancho
     float alto;
     String forma;
     String color;
 //constructores
     public Molde() {
-    }
+    }//constructor sin parámetros
 
     public Molde(String material, float ancho, float alto, String forma, String color) {
         this.material = material;
         this.ancho = ancho;
-        this.alto = alto;
+        tis.alto = alto;
         this.forma = forma;
         this.color = color;
 
-    }
+    }//constructor con parámetrosh
+
+    public Molde(String material, float alto) {
+        this.material = material;
+        this.alto = alto;
+    }//constructor con algunos parámetros, no todos
 
     //métodos
 
