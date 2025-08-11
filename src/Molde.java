@@ -30,4 +30,46 @@ public class Molde {
         System.out.println("---------");
 
     }
+ //métodos setters y getters
+
+
+    public String getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
+    public float getAncho() {
+        return ancho;
+    }
+
+    public void setAncho(float ancho) {
+        this.ancho = ancho;
+    }
+
+    public float getAlto() {
+        return alto;
+    }
+
+    public void setAlto(float alto) {
+        this.alto = alto;
+    }
+
+    public String getForma() {
+        return forma;
+    }
+
+    public void setForma(String forma) {
+        this.forma = forma;
+    }
+
+    private String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
 }

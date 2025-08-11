@@ -15,5 +15,12 @@ public class Main {
         galleta2.imprimir();
         galleta3.imprimir();
 
+        galleta3.setMaterial("cerámica");
+        galleta3.imprimir();
+        System.out.println("la forma de la galleta 3 es:");
+        System.out.println(galleta3.getForma());
+
+
+
     }
 }
